@@ -44,13 +44,6 @@ header h5 {
     border-radius: 10px;
     box-shadow: #194b80 0px 0px 20px 0px;
     margin: 20px;
-
-    height:492px;
-
-    /*
-
-    */
-
     display: inline-grid;
 }
 
@@ -62,4 +55,10 @@ header h5 {
 .block img{
     max-width:90%;
     border-radius: 10px;
+}
+
+@media (min-width:650px) {
+    .block {
+        height:492px;
+    }
 }
